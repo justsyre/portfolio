@@ -1,22 +1,24 @@
 export default function Page() {
   return (
     <main>
-      <h1>Chester Syron Damian</h1>
-      <p>Official Self-Proclaimed Software Engineer</p>
+      <section id="showcase">
+        <h1>Chester Syron Damian</h1>
+        <p>Official Self-Proclaimed Software Engineer</p>
 
-      <div>
-        <p>
-          I am a jack of all trades and a master of none with a Bachelor of
-          Science in Computer Science, whose main objective is to finally pursue
-          something that I am really interested in, It's all about Software
-          Development and Web Development.
-        </p>
+        <div>
+          <p>
+            I am a jack of all trades and a master of none with a Bachelor of
+            Science in Computer Science, whose main objective is to finally
+            pursue something that I am really interested in, It's all about
+            Software Development and Web Development.
+          </p>
 
-        <p>
-          "Experience is the best teacher in life, so I'll just get coffee, sit
-          down, and code"
-        </p>
-      </div>
+          <p>
+            "Experience is the best teacher in life, so I'll just get coffee,
+            sit down, and code"
+          </p>
+        </div>
+      </section>
 
       <section id="about">
         <h2>Background</h2>
@@ -157,7 +159,6 @@ export default function Page() {
       </section>
 
       <section id="contact-me">
-        <h2>Contact Me</h2>
         <form>
           <fieldset>
             <legend>Contact Me</legend>
@@ -179,8 +180,8 @@ export default function Page() {
             <textarea
               name="message"
               id="message"
-              cols="30"
-              rows="10"
+              cols={30}
+              rows={10}
               placeholder="Write something here ..."
             ></textarea>
 
